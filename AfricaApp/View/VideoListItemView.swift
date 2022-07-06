@@ -44,6 +44,8 @@ struct VideoListItemView: View {
     }
 }
 
+//MARK: Preview
+
 struct VideoListItem_Previews: PreviewProvider {
     
     static let videos: [Video] = Bundle.main.decode("videos.json")
