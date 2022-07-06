@@ -40,6 +40,8 @@
 		EF1A22582875FDB2003AA3C8 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A22572875FDB2003AA3C8 /* InsetFactView.swift */; };
 		EF1A225A287602C0003AA3C8 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A2259287602C0003AA3C8 /* InsetMapView.swift */; };
 		EF1A225C287605AA003AA3C8 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A225B287605AA003AA3C8 /* ExternalWeblinkView.swift */; };
+		EF1A225E28760A6A003AA3C8 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A225D28760A6A003AA3C8 /* VideoModel.swift */; };
+		EF1A226028760AB9003AA3C8 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A225F28760AB9003AA3C8 /* VideoListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		EF1A22572875FDB2003AA3C8 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		EF1A2259287602C0003AA3C8 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		EF1A225B287605AA003AA3C8 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		EF1A225D28760A6A003AA3C8 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		EF1A225F28760AB9003AA3C8 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,13 +114,13 @@
 		EF1A220A28735526003AA3C8 /* AfricaApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF1A223828735D7C003AA3C8 /* App */,
+				EF1A223928735D92003AA3C8 /* View */,
 				EF1A2249287423A2003AA3C8 /* Extension */,
 				EF1A2246287422D1003AA3C8 /* Model */,
-				EF1A223928735D92003AA3C8 /* View */,
 				EF1A223728735CE2003AA3C8 /* Info.plist */,
 				EF1A222E2873585A003AA3C8 /* Data */,
 				EF1A221928735825003AA3C8 /* Video */,
-				EF1A223828735D7C003AA3C8 /* App */,
 				EF1A220F28735527003AA3C8 /* Assets.xcassets */,
 				EF1A221128735527003AA3C8 /* Preview Content */,
 			);
@@ -183,6 +187,7 @@
 				EF1A22572875FDB2003AA3C8 /* InsetFactView.swift */,
 				EF1A2259287602C0003AA3C8 /* InsetMapView.swift */,
 				EF1A225B287605AA003AA3C8 /* ExternalWeblinkView.swift */,
+				EF1A225F28760AB9003AA3C8 /* VideoListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			children = (
 				EF1A2247287422EA003AA3C8 /* CoverImageModel.swift */,
 				EF1A224F2875D65C003AA3C8 /* AnimalModel.swift */,
+				EF1A225D28760A6A003AA3C8 /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,8 +307,10 @@
 				EF1A225A287602C0003AA3C8 /* InsetMapView.swift in Sources */,
 				EF1A220C28735526003AA3C8 /* AfricaAppApp.swift in Sources */,
 				EF1A223B28735DE9003AA3C8 /* VideoListView.swift in Sources */,
+				EF1A225E28760A6A003AA3C8 /* VideoModel.swift in Sources */,
 				EF1A223F28735E3F003AA3C8 /* GalleryView.swift in Sources */,
 				EF1A22562875F183003AA3C8 /* InsetGalleryView.swift in Sources */,
+				EF1A226028760AB9003AA3C8 /* VideoListItemView.swift in Sources */,
 				EF1A224B287423C4003AA3C8 /* CodableBundleExtension.swift in Sources */,
 				EF1A22542875F03F003AA3C8 /* HeadingView.swift in Sources */,
 			);
